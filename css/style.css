@@ -6,7 +6,7 @@ body {
 
 .navbar {
 	background-color: #0072CE;
-	height: 10rem;
+	height: 15rem;
 }
 
 .navbar-toggler {
@@ -15,4 +15,7 @@ body {
 .navbar-toggler-icon {
 	font-size: 2.25rem;
 }
-
+.fas {
+	font-size: 3rem;
+	margin-right: 2rem;
+}
