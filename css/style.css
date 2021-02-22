@@ -1,8 +1,4 @@
-body {
-	margin: 0;
-	padding: 0;
-	font-family: Helvetica, sans-serif;
-}
+
 
 .navbar {
 	background-color: #0072CE;
@@ -15,7 +11,18 @@ body {
 .navbar-toggler-icon {
 	font-size: 2.25rem;
 }
-.fas {
+.nav-icon {
 	font-size: 3rem;
 	margin-right: 2rem;
+}
+
+#article {
+	border: 1px solid lightgray;
+	font-size: 3rem;
+}
+
+#like {
+	border: 1px solid #18549B;
+	font-size: 2rem;
+	color: #18549B;
 }
