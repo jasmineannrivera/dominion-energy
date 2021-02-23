@@ -33,4 +33,15 @@
 
 .title {
 	font-family: 'Lora', serif;
+	font-size: 3rem;
+}
+
+.fa-mail-bulk {
+	font-size: 10rem;
+}
+
+#signup {
+	border: 1px solid #18549B;
+	font-size: 3rem;
+	color: #18549B;
 }
