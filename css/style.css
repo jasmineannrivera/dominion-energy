@@ -45,3 +45,12 @@
 	font-size: 3rem;
 	color: #18549B;
 }
+
+.card-header {
+	background-color: #0072CE !important;
+}
+
+footer {
+	color: white;
+	background-color: #0072CE;
+}
