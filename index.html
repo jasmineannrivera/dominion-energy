@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Dominion Energy</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -10,6 +11,7 @@
 	<script src="https://kit.fontawesome.com/a0b942c149.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
 <!--Navbar start-->
 <nav class="navbar navbar-dark navbar-expand-lg">
 	<a class="navbar-brand" href="#"><img src="imgs/sm-logo.png" alt="dominion logo"></a>
@@ -53,28 +55,39 @@
 
 <!--Content Start-->
 <div class="container-fluid pt-5 m-1">
-	<div class="row m-1">
-		<div>
-			<h1 class="title">It's Hurricane Season</h1>
+	<div class="row m-1 ">
+		<div class="row m-1 col-12">
+			<div>
+				<h1 class="title">It's Hurricane Season</h1>
+			</div>
+		</div>
+		<div class="row m-1 col-12"  id="updated">
+			<p>
+				Updated: 12/12/2020
+				<i class="fas fa-thumbs-up pl-3"></i>
+				<strong>245 Likes</strong>
+			</p>
+		</div>
+		<div class="row col-12 m-1">
+			<p class="content"><strong>Are you prepared?</strong></p>
+		</div>
+		<div class="row m-1">
+			<p class="content">Even though the Atlantic Hurricane Season only officially began on June 1, Dominion Energy has been preparing for months.</p>
 		</div>
 	</div>
+
+<!--	div with article summary, summary box, and like box-->
 	<div class="row m-1">
-		<p>
-			Updated: 12/12/2020
-			<i class="fas fa-thumbs-up pl-3"></i>
-			<strong>245 Likes</strong>
-		</p>
-	</div>
-	<div class="row m-1">
-		<p class="content"><strong>Are you prepared?</strong></p>
-	</div>
-	<div class="row m-1">
-		<p class="content">Even though the Atlantic Hurricane Season only officially began on June 1, Dominion Energy has been preparing for months.</p>
+		<div class="col-md-6 col-sm-12">
+			<h1 class="title">Article Summary</h1>
+		</div>
+		<!--blue like box-->
+		<div class="p-3 col-md-6 col-sm-12 like">
+			<p class="d-flex align-items-center"><i class="fas fa-thumbs-up pl-3 pr-4"></i>Like this Article</p>
+		</div>
 	</div>
 
-	<div class="row m-1 d-flex justify-content-center">
-		<h1 class="title">Article Summary</h1>
-	</div>
+	<!--Article box-->
 	<div class="row m-1">
 		<div class="col-sm-12 m-1 p-3" id="article">
 			<p class="mt-4 mb-5"><strong>This article is about this:</strong></p>
@@ -82,13 +95,6 @@
 			<p>What is important to pack in an emergency preparedness kit</p>
 			<p>What to do when the power goes out</p>
 			<p>How to stay safe during and after the storm</p>
-		</div>
-	</div>
-
-<!--blue like box-->
-	<div class="row m-1 d-flex">
-		<div class="col-sm-5 p-3 mt-4 like">
-			<p class="d-flex align-items-center"><i class="fas fa-thumbs-up pl-3 pr-4"></i>Like this Article</p>
 		</div>
 	</div>
 
@@ -200,7 +206,7 @@
 				<div class="carousel-item active">
 					<img src="imgs/bee.jpeg" class="d-block w-100" alt="...">
 				</div>
-				<div class="carousel-item">
+				<div class="carousel-item active">
 					<img src="imgs/phone.jpeg" class="d-block w-100" alt="...">
 				</div>
 				<div class="carousel-item">

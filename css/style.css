@@ -16,6 +16,10 @@
 	margin-right: 2rem;
 }
 
+#updated {
+	font-size: 2vh;
+}
+
 #article {
 	border: 1px solid lightgray;
 	font-size: 3rem;
@@ -28,12 +32,12 @@
 }
 
 .content {
-	font-size: 2.5rem;
+	font-size: 3vh;
 }
 
 .title {
 	font-family: 'Lora', serif;
-	font-size: 3rem;
+	font-size: 4vh;
 }
 
 .fa-mail-bulk {
