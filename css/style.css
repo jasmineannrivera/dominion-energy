@@ -38,12 +38,12 @@
 }
 
 .content {
-	font-size: 3vh;
+	font-size: 2vh;
 }
 
 .title {
 	font-family: 'Lora', serif;
-	font-size: 4vh;
+	font-size: 3vh;
 }
 
 .fa-mail-bulk {
@@ -68,3 +68,4 @@ footer {
 .copyright {
 	background-color: black;
 }
+
