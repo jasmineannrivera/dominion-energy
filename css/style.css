@@ -41,6 +41,11 @@
 	font-size: 2vh;
 }
 
+.article-title {
+	font-family: 'Lora', serif;
+	font-size: 4vh;
+}
+
 .title {
 	font-family: 'Lora', serif;
 	font-size: 3vh;
@@ -67,5 +72,21 @@ footer {
 
 .copyright {
 	background-color: black;
+	color: white;
 }
 
+.fab {
+	color: white;
+}
+
+.list-links {
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+footer {
+	padding-top: 1rem;
+}

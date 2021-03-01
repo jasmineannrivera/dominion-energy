@@ -11,371 +11,806 @@
 	<script src="https://kit.fontawesome.com/a0b942c149.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark d-none d-lg-block d-xl-block">
-	<h3 class="my-auto"><a class="navbar-brand" href="#">Brand</a></h3>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
-		<ul class="navbar-nav ml-auto small mb-2 mb-md-0">
-			<li class="nav-item active">
-<!--				<a class="nav-link py-1" href="#">Shop</a>-->
-				<div class="form-group">
-<!--					Consider changing "State" to current state selected-->
-					<label for="state" class="col-sm-2 control-label">State</label>
-					<div class="col-sm-10">
-						<select class="form-control" id="state" name="state">
-							<option value="">N/A</option>
-							<option value="AK">Alaska</option>
-							<option value="AL">Alabama</option>
-							<option value="AR">Arkansas</option>
-							<option value="AZ">Arizona</option>
-							<option value="CA">California</option>
-							<option value="CO">Colorado</option>
-							<option value="CT">Connecticut</option>
-							<option value="DC">District of Columbia</option>
-							<option value="DE">Delaware</option>
-							<option value="FL">Florida</option>
-							<option value="GA">Georgia</option>
-							<option value="HI">Hawaii</option>
-							<option value="IA">Iowa</option>
-							<option value="ID">Idaho</option>
-							<option value="IL">Illinois</option>
-							<option value="IN">Indiana</option>
-							<option value="KS">Kansas</option>
-							<option value="KY">Kentucky</option>
-							<option value="LA">Louisiana</option>
-							<option value="MA">Massachusetts</option>
-							<option value="MD">Maryland</option>
-							<option value="ME">Maine</option>
-							<option value="MI">Michigan</option>
-							<option value="MN">Minnesota</option>
-							<option value="MO">Missouri</option>
-							<option value="MS">Mississippi</option>
-							<option value="MT">Montana</option>
-							<option value="NC">North Carolina</option>
-							<option value="ND">North Dakota</option>
-							<option value="NE">Nebraska</option>
-							<option value="NH">New Hampshire</option>
-							<option value="NJ">New Jersey</option>
-							<option value="NM">New Mexico</option>
-							<option value="NV">Nevada</option>
-							<option value="NY">New York</option>
-							<option value="OH">Ohio</option>
-							<option value="OK">Oklahoma</option>
-							<option value="OR">Oregon</option>
-							<option value="PA">Pennsylvania</option>
-							<option value="PR">Puerto Rico</option>
-							<option value="RI">Rhode Island</option>
-							<option value="SC">South Carolina</option>
-							<option value="SD">South Dakota</option>
-							<option value="TN">Tennessee</option>
-							<option value="TX">Texas</option>
-							<option value="UT">Utah</option>
-							<option value="VA">Virginia</option>
-							<option value="VT">Vermont</option>
-							<option value="WA">Washington</option>
-							<option value="WI">Wisconsin</option>
-							<option value="WV">West Virginia</option>
-							<option value="WY">Wyoming</option>
-						</select>
+<!--Start nav for desktop view-->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark d-none d-lg-block d-xl-block">
+		<h3 class="my-auto"><a class="navbar-brand"
+		                       href="#">Brand</a></h3>
+		<button class="navbar-toggler" type="button"
+		        data-toggle="collapse"
+		        data-target="#navbarCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse w-100 flex-md-column"
+		     id="navbarCollapse">
+			<ul class="navbar-nav ml-auto small mb-2 mb-md-0">
+				<li class="nav-item active">
+					<!--				<a class="nav-link py-1" href="#">Shop</a>-->
+					<div class="form-group">
+						<!--					Consider changing "State" to current state selected-->
+						<label for="state"
+						       class="col-sm-2 control-label">State</label>
+						<div class="col-sm-10">
+							<select class="form-control"
+							        id="state"
+							        name="state">
+								<option value="">N/A
+								</option>
+								<option value="AK">
+									Alaska
+								</option>
+								<option value="AL">
+									Alabama
+								</option>
+								<option value="AR">
+									Arkansas
+								</option>
+								<option value="AZ">
+									Arizona
+								</option>
+								<option value="CA">
+									California
+								</option>
+								<option value="CO">
+									Colorado
+								</option>
+								<option value="CT">
+									Connecticut
+								</option>
+								<option value="DC">
+									District of
+									Columbia
+								</option>
+								<option value="DE">
+									Delaware
+								</option>
+								<option value="FL">
+									Florida
+								</option>
+								<option value="GA">
+									Georgia
+								</option>
+								<option value="HI">
+									Hawaii
+								</option>
+								<option value="IA">
+									Iowa
+								</option>
+								<option value="ID">
+									Idaho
+								</option>
+								<option value="IL">
+									Illinois
+								</option>
+								<option value="IN">
+									Indiana
+								</option>
+								<option value="KS">
+									Kansas
+								</option>
+								<option value="KY">
+									Kentucky
+								</option>
+								<option value="LA">
+									Louisiana
+								</option>
+								<option value="MA">
+									Massachusetts
+								</option>
+								<option value="MD">
+									Maryland
+								</option>
+								<option value="ME">
+									Maine
+								</option>
+								<option value="MI">
+									Michigan
+								</option>
+								<option value="MN">
+									Minnesota
+								</option>
+								<option value="MO">
+									Missouri
+								</option>
+								<option value="MS">
+									Mississippi
+								</option>
+								<option value="MT">
+									Montana
+								</option>
+								<option value="NC">
+									North Carolina
+								</option>
+								<option value="ND">
+									North Dakota
+								</option>
+								<option value="NE">
+									Nebraska
+								</option>
+								<option value="NH">New
+									Hampshire
+								</option>
+								<option value="NJ">New
+									Jersey
+								</option>
+								<option value="NM">New
+									Mexico
+								</option>
+								<option value="NV">
+									Nevada
+								</option>
+								<option value="NY">New
+									York
+								</option>
+								<option value="OH">
+									Ohio
+								</option>
+								<option value="OK">
+									Oklahoma
+								</option>
+								<option value="OR">
+									Oregon
+								</option>
+								<option value="PA">
+									Pennsylvania
+								</option>
+								<option value="PR">
+									Puerto Rico
+								</option>
+								<option value="RI">
+									Rhode Island
+								</option>
+								<option value="SC">
+									South Carolina
+								</option>
+								<option value="SD">
+									South Dakota
+								</option>
+								<option value="TN">
+									Tennessee
+								</option>
+								<option value="TX">
+									Texas
+								</option>
+								<option value="UT">
+									Utah
+								</option>
+								<option value="VA">
+									Virginia
+								</option>
+								<option value="VT">
+									Vermont
+								</option>
+								<option value="WA">
+									Washington
+								</option>
+								<option value="WI">
+									Wisconsin
+								</option>
+								<option value="WV">
+									West Virginia
+								</option>
+								<option value="WY">
+									Wyoming
+								</option>
+							</select>
+						</div>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link py-1" href="#">Products</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link py-1" href="#">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link py-1" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link py-1" href="#">Events</a>
+				</li>
+			</ul>
+			<form class="form-inline ml-auto">
+				<div class="input-group">
+					<input type="text"
+					       class="form-control border-dark"
+					       placeholder="Search">
+					<div class="input-group-append">
+						<button class="btn btn-outline-secondary"
+						        type="button"><i
+								class="fa fa-search"></i>
+						</button>
 					</div>
 				</div>
+			</form>
+		</div>
+	</nav>
+
+<!--Start nav for mobile view-->
+	<nav class="navbar navbar-dark bg-dark d-block d-lg-none">
+
+		<a class="navbar-brand" href="#"><img
+				id="logo" src="imgs/sm-logo.png"
+				alt="dominion logo"></a>
+		<ul class="navbar-nav d-flex flex-row ml-auto">
+			<li class="nav-item active">
+				<a href="#" class="nav-link"><i
+						class="fas nav-icon fa-exclamation-triangle"></i></a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link py-1" href="#">Products</a>
+			<li class="nav-item active">
+				<a href="#" class="nav-link"><i
+						class="fas nav-icon fa-map-marker-alt"></i></a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link py-1" href="#">Team</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link py-1" href="#">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link py-1" href="#">Events</a>
+			<li class="nav-item active">
+				<a href="#" class="nav-link"><i
+						class="fas nav-icon fa-search"></i></a>
 			</li>
 		</ul>
-		<form class="form-inline ml-auto">
-			<div class="input-group">
-				<input type="text" class="form-control border-dark" placeholder="Search">
-				<div class="input-group-append">
-					<button class="btn btn-outline-secondary" type="button"><i class="fa fa-search"></i></button>
+		<button class="navbar-toggler" type="button"
+		        data-toggle="collapse"
+		        data-target="#navbarNavAltMarkup"
+		        aria-controls="navbarNavAltMarkup"
+		        aria-expanded="false"
+		        aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse"
+		     id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active"
+				   href="#">Home <span
+						class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#">Billing</a>
+				<a class="nav-item nav-link" href="#">Pricing</a>
+				<a class="nav-item nav-link disabled"
+				   href="#">Disabled</a>
+			</div>
+		</div>
+	</nav>
+
+
+	<!--Content Start-->
+	<div class="container vertical-center pt-5 ">
+		<div class="row m-1 ">
+			<div class="row col-12">
+				<div>
+					<h1 class="article-title">It's
+						Hurricane Season</h1>
 				</div>
 			</div>
-		</form>
-	</div>
-</nav>
-
-
-
-
-
-
-
-
-
-
-
-<nav class="navbar navbar-dark bg-dark d-block d-lg-none">
-
-	<a class="navbar-brand" href="#"><img id="logo" src="imgs/sm-logo.png" alt="dominion logo"></a>
-	<ul class="navbar-nav d-flex flex-row ml-auto">
-		<li class="nav-item active">
-			<a href="#" class="nav-link"><i class="fas nav-icon fa-exclamation-triangle"></i></a>
-		</li>
-		<li class="nav-item active">
-			<a href="#" class="nav-link"><i class="fas nav-icon fa-map-marker-alt"></i></a>
-		</li>
-		<li class="nav-item active">
-			<a href="#" class="nav-link"><i class="fas nav-icon fa-search"></i></a>
-		</li>
-	</ul>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		<div class="navbar-nav">
-			<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-			<a class="nav-item nav-link" href="#">Billing</a>
-			<a class="nav-item nav-link" href="#">Pricing</a>
-			<a class="nav-item nav-link disabled" href="#">Disabled</a>
-		</div>
-	</div>
-</nav>
-
-
-
-
-
-<!--Navbar start-->
-<!--<nav class="navbar navbar-dark navbar-expand-lg">-->
-<!--	<a class="navbar-brand" href="#"><img src="imgs/sm-logo.png" alt="dominion logo"></a>-->
-<!--	<ul class="navbar-nav d-flex flex-row ml-auto">-->
-<!--		<li class="nav-item active">-->
-<!--			<a href="#" class="nav-link"><i class="fas nav-icon fa-exclamation-triangle"></i></a>-->
-<!--		</li>-->
-<!--		<li class="nav-item active">-->
-<!--			<a href="#" class="nav-link"><i class="fas nav-icon fa-map-marker-alt"></i></a>-->
-<!--		</li>-->
-<!--		<li class="nav-item active">-->
-<!--			<a href="#" class="nav-link"><i class="fas nav-icon fa-search"></i></a>-->
-<!--		</li>-->
-<!--	</ul>-->
-<!--	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--		<span class="navbar-toggler-icon"></span>-->
-<!--	</button>-->
-<!--	<div class="collapse navbar-collapse" id="navbarNav">-->
-<!--		<ul class="navbar-nav">-->
-<!--			<li class="nav-item active">-->
-<!--				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>-->
-<!--			</li>-->
-<!--			<li class="nav-item">-->
-<!--				<a class="nav-link" href="#">Billing</a>-->
-<!--			</li>-->
-<!--			<li class="nav-item">-->
-<!--				<a class="nav-link" href="#">Report Outage or Incident</a>-->
-<!--			</li>-->
-<!--			<li class="nav-item">-->
-<!--				<a class="nav-link" href="#">Start/Stop Service</a>-->
-<!--			</li>-->
-<!--			<li class="nav-item">-->
-<!--				<a class="nav-link" href="#">Green Energy</a>-->
-<!--			</li>-->
-<!--			<li class="nav-item">-->
-<!--				<a class="nav-link" href="#">Our Stories</a>-->
-<!--			</li>-->
-<!--		</ul>-->
-<!--	</div>-->
-<!--</nav>-->
-
-<!--Content Start-->
-<div class="container vertical-center pt-5 ">
-	<div class="row m-1 ">
-		<div class="row col-12">
-			<div>
-				<h1 class="title">It's Hurricane Season</h1>
+			<div class="row col-12" id="updated">
+				<p>
+					Updated: 12/12/2020
+					<i class="fas fa-thumbs-up pl-3"></i>
+					<strong>245 Likes</strong>
+				</p>
+			</div>
+			<div class="row col-12">
+				<p class="content"><strong>Are you
+					prepared?</strong></p>
+			</div>
+			<div class="row m-1">
+				<p class="content">Even though the
+					Atlantic Hurricane Season only
+					officially began on June 1,
+					Dominion Energy has been preparing
+					for months.</p>
 			</div>
 		</div>
-		<div class="row col-12"  id="updated">
-			<p>
-				Updated: 12/12/2020
-				<i class="fas fa-thumbs-up pl-3"></i>
-				<strong>245 Likes</strong>
-			</p>
-		</div>
-		<div class="row col-12">
-			<p class="content"><strong>Are you prepared?</strong></p>
-		</div>
+
+		<!--	div with article summary, summary box, and like box-->
 		<div class="row m-1">
-			<p class="content">Even though the Atlantic Hurricane Season only officially began on June 1, Dominion Energy has been preparing for months.</p>
+			<div class="col-md-6 col-sm-12">
+				<h1 class="title">Article Summary</h1>
+			</div>
+			<!--blue like box-->
+			<div class="p-3 col-md-6 col-sm-12 like">
+				<p class="d-flex align-items-center">
+					<i class="fas fa-thumbs-up pl-3 pr-4"></i>Like
+					this Article</p>
+			</div>
 		</div>
-	</div>
 
-<!--	div with article summary, summary box, and like box-->
-	<div class="row m-1">
-		<div class="col-md-6 col-sm-12">
-			<h1 class="title">Article Summary</h1>
+		<!--Article box-->
+		<div class="row m-1">
+			<div class="col-sm-12 m-1 p-3 content"
+			     id="article">
+				<p class="mt-4 mb-5"><strong>This
+					article is about this:</strong>
+				</p>
+				<p>How to know when a storm is
+					coming</p>
+				<p>What is important to pack in an
+					emergency preparedness kit</p>
+				<p>What to do when the power goes
+					out</p>
+				<p>How to stay safe during and after
+					the storm</p>
+			</div>
 		</div>
-		<!--blue like box-->
-		<div class="p-3 col-md-6 col-sm-12 like">
-			<p class="d-flex align-items-center"><i class="fas fa-thumbs-up pl-3 pr-4"></i>Like this Article</p>
+
+		<!--	phone image-->
+		<div class="row m-1 mt-5">
+			<img class="col-sm-12" id="phone"
+			     src="imgs/phone.jpeg"
+			     alt="woman on phone">
 		</div>
-	</div>
 
-	<!--Article box-->
-	<div class="row m-1">
-		<div class="col-sm-12 m-1 p-3 content" id="article">
-			<p class="mt-4 mb-5"><strong>This article is about this:</strong></p>
-			<p>How to know when a storm is coming</p>
-			<p>What is important to pack in an emergency preparedness kit</p>
-			<p>What to do when the power goes out</p>
-			<p>How to stay safe during and after the storm</p>
+		<div class="row m-1 pt-5">
+			<p class="content">Even though the
+				Atlantic Hurricane Season only
+				officially began on June 1, Dominion
+				Energy has been preparing for months.
+				"Summer storms can be unpredictable so
+				planning ahead and being ready is
+				key," explains David Vanderbloemen,
+				director of the Electric Distribution
+				Operations Center. "Part of our
+				preparation includes using new
+				technologies to restore power faster
+				if it does go out," he explains. But
+				there's a lot that you, the customer,
+				can do to stay safe, too.</p>
 		</div>
-	</div>
 
-<!--	phone image-->
-	<div class="row m-1 mt-5">
-		<img class="col-sm-12" id="phone" src="imgs/phone.jpeg" alt="woman on phone">
-	</div>
-
-	<div class="row m-1 pt-5">
-		<p class="content">Even though the Atlantic Hurricane Season only officially began on June 1, Dominion Energy has been preparing for months.  "Summer storms can be unpredictable so planning ahead and being ready is key," explains David Vanderbloemen, director of the Electric Distribution Operations Center.  "Part of our preparation includes using new technologies to restore power faster if it does go out," he explains.  But there's a lot that you, the customer, can do to stay safe, too.</p>
-	</div>
-
-	<div class="row m-1 pt-5">
-		<h1 class="title text-center">Watch the Weather</h1>
-		<p class="content">Know your evacuation zone.  You can find it using a simple tool on the Department of Emergency Management's website .  Follow the storm on the National Hurricane Center's website as it approaches.</p>
-	</div>
-
-<!--	blue updates box-->
-	<div class="row m-1 pt-5">
-		<div class="col-sm-12 d-flex flex-column align-items-center" id="signup">
-			<span><i class="fas fa-mail-bulk"></i></span>
-			<p class="justify-content-center">Click here and sign up here to receive storm updates from Dominion Energy via text or email.</p>
+		<div class="row m-1 pt-5">
+			<h1 class="title text-center">Watch the
+				Weather</h1>
+			<p class="content">Know your evacuation
+				zone. You can find it using a simple
+				tool on the Department of Emergency
+				Management's website . Follow the
+				storm on the National Hurricane
+				Center's website as it approaches.</p>
 		</div>
-	</div>
 
-<!--	first list of bullet points (pack)-->
-	<div class="row m-1 pt-5">
-		<h1 class="title">Pack an Emergency Kit</h1>
-		<ul class="content">
-			<li>Download a list of what to pack in an emergency kit <span class="blue">[here]</span>.  Don't wait for a hurricane watch or warning to prepare.  By then, the shelves will be bare or stores will be closed.</li>
-			<li>Use large plastic totes, laundry baskets, or suitcases to organize everything</li>
-
-		</ul>
-	</div>
-
-<!--	second set of bullet points (prepare)-->
-	<div class="row m-1 pt-5">
-		<h1 class="title">Prepare to Be Powerless</h1>
-		<ul class="content">
-			<li><a href="#" class="blue">Go online</a> or call
-				<a href="#" class="blue">1-800-222-0401</a> to make sure we've got your correct phone number.  (This will help if you have to report an outage).</li>
-			<li>Charge your cell phone, rechargeable batteries, iPads, and laptop before the storm hits.</li>
-			<li>We don't know you've lost power unless you tell us.
-				<a href="#" class="blue">Report your outage here</a> or call us at
-				<a href="#" class="blue">866-366-4357</a>.</li>
-			<li>Leave your front porch light on so that if you have to ask someone to drive by and check on the house they can easily tell of you have power.</li>
-			<li>Only use generators outdoors and with plenty of ventilation.  Never plug a generator into a wall socket, which could cause an explosion.</li>
-			<li>Use our outage map to stay up to date on restoration efforts.</li>
-			<li>If you're without power, turn off major appliances, such as air conditioners, water heaters, and stoves.</li>
-			<li>Unplug TVs, stereos, microwaves, and computers to prevent damage when the power is restored.</li>
-			<li>Fill up your car with gas.</li>
-		</ul>
-	</div>
-
-<!--	third set of bullet points (stay safe)-->
-	<div class="row m-1 pt-5">
-		<h1 class="title">Stay Safe in the Storm</h1>
-		<ul class="content">
-			<li>If you're told to evacuate, do so immediately</li>
-			<li>If you see a downed power line, stay back 30 feet and remove children and pets from the area.  (Remember, just because a line isn't moving or sparking, doesn't mean it isn't dangerous).</li>
-			<li>Call us immediately at <a href="#"
-			                              class="blue">866-366-4357</a> to report downed power lines.</li>
-			<li>Don't drive through standing water.</li>
-			<li>If you are in a car and a power line falls on it, please stay in your car and call 911 immediately.  The rubber wheels on your vehicle will keep you safe inside, but the metal exterior and ground around your car could be energized.  Click here for a video with more advice.</li>
-		</ul>
-	</div>
-
-<!--	fourth set of bullet points (emergency kit)-->
-	<div class="row m-1 pt-5">
-		<h1 class="title">Emergency Kit Packing List</h1>
-		<ul class="content">
-			<li>At least 3 days of non-perishable food for each person</li>
-			<li>1 gallon of water per person, per day</li>
-			<li>Can opener</li>
-			<li>First Aid kit</li>
-			<li>1 blanket or sleeping bag per person</li>
-			<li>1 change of clothes per person</li>
-			<li>Flashlight and lantern</li>
-			<li>Battery-operated weather radio</li>
-			<li>Extra batteries</li>
-			<li>Prescription and over-the-counter medications</li>
-			<li>Food and water for pet(s)</li>
-			<li>Important family documents (IDs, bank records, passports, insurance policies)</li>
-			<li>Matches or lighter</li>
-			<li>Cash</li>
-			<li>Whistle to signal for help</li>
-			<li>Wet wipes for washing up</li>
-		</ul>
-	</div>
-
-<!--	blue like box-->
-	<div class="row m-1 d-flex">
-		<div class="col-sm-5 p-3 mt-4 like">
-			<p class="d-flex align-items-center"><i class="fas fa-thumbs-up pl-3 pr-4"></i>Like this Article</p>
+		<!--	blue updates box-->
+		<div class="row m-1 pt-5">
+			<div class="col-sm-12 d-flex flex-column align-items-center"
+			     id="signup">
+				<span><i class="fas fa-mail-bulk"></i></span>
+				<p class="justify-content-center">
+					Click here and sign up here to
+					receive storm updates from
+					Dominion Energy via text or
+					email.</p>
+			</div>
 		</div>
+
+		<!--	first list of bullet points (pack)-->
+		<div class="row m-1 pt-5">
+			<h1 class="title">Pack an Emergency
+				Kit</h1>
+			<ul class="content">
+				<li>Download a list of what to pack in
+					an emergency kit <span
+							class="blue">[here]</span>.
+					Don't wait for a hurricane watch
+					or warning to prepare. By then,
+					the shelves will be bare or stores
+					will be closed.
+				</li>
+				<li>Use large plastic totes, laundry
+					baskets, or suitcases to organize
+					everything
+				</li>
+
+			</ul>
+		</div>
+
+		<!--	second set of bullet points (prepare)-->
+		<div class="row m-1 pt-5">
+			<h1 class="title">Prepare to Be
+				Powerless</h1>
+			<ul class="content">
+				<li><a href="#" class="blue">Go
+					online</a> or call
+					<a href="#" class="blue">1-800-222-0401</a>
+					to make sure we've got your
+					correct phone number. (This will
+					help if you have to report an
+					outage).
+				</li>
+				<li>Charge your cell phone,
+					rechargeable batteries, iPads, and
+					laptop before the storm hits.
+				</li>
+				<li>We don't know you've lost power
+					unless you tell us.
+					<a href="#" class="blue">Report
+						your outage here</a> or call
+					us at
+					<a href="#" class="blue">866-366-4357</a>.
+				</li>
+				<li>Leave your front porch light on so
+					that if you have to ask someone to
+					drive by and check on the house
+					they can easily tell of you have
+					power.
+				</li>
+				<li>Only use generators outdoors and
+					with plenty of ventilation. Never
+					plug a generator into a wall
+					socket, which could cause an
+					explosion.
+				</li>
+				<li>Use our outage map to stay up to
+					date on restoration efforts.
+				</li>
+				<li>If you're without power, turn off
+					major appliances, such as air
+					conditioners, water heaters, and
+					stoves.
+				</li>
+				<li>Unplug TVs, stereos, microwaves,
+					and computers to prevent damage
+					when the power is restored.
+				</li>
+				<li>Fill up your car with gas.</li>
+			</ul>
+		</div>
+
+		<!--	third set of bullet points (stay safe)-->
+		<div class="row m-1 pt-5">
+			<h1 class="title">Stay Safe in the
+				Storm</h1>
+			<ul class="content">
+				<li>If you're told to evacuate, do so
+					immediately
+				</li>
+				<li>If you see a downed power line,
+					stay back 30 feet and remove
+					children and pets from the area.
+					(Remember, just because a line
+					isn't moving or sparking, doesn't
+					mean it isn't dangerous).
+				</li>
+				<li>Call us immediately at <a href="#"
+				                              class="blue">866-366-4357</a>
+					to report downed power lines.
+				</li>
+				<li>Don't drive through standing
+					water.
+				</li>
+				<li>If you are in a car and a power
+					line falls on it, please stay in
+					your car and call 911 immediately.
+					The rubber wheels on your vehicle
+					will keep you safe inside, but the
+					metal exterior and ground around
+					your car could be energized. Click
+					here for a video with more advice.
+				</li>
+			</ul>
+		</div>
+
+		<!--	fourth set of bullet points (emergency kit)-->
+		<div class="row m-1 pt-5">
+			<h1 class="title">Emergency Kit Packing
+				List</h1>
+			<ul class="content">
+				<li>At least 3 days of non-perishable
+					food for each person
+				</li>
+				<li>1 gallon of water per person, per
+					day
+				</li>
+				<li>Can opener</li>
+				<li>First Aid kit</li>
+				<li>1 blanket or sleeping bag per
+					person
+				</li>
+				<li>1 change of clothes per person
+				</li>
+				<li>Flashlight and lantern</li>
+				<li>Battery-operated weather radio
+				</li>
+				<li>Extra batteries</li>
+				<li>Prescription and over-the-counter
+					medications
+				</li>
+				<li>Food and water for pet(s)</li>
+				<li>Important family documents (IDs,
+					bank records, passports, insurance
+					policies)
+				</li>
+				<li>Matches or lighter</li>
+				<li>Cash</li>
+				<li>Whistle to signal for help</li>
+				<li>Wet wipes for washing up</li>
+			</ul>
+		</div>
+
+		<!--	blue like box-->
+		<div class="row m-1 d-flex">
+			<div class="col-sm-5 p-3 mt-4 like">
+				<p class="d-flex align-items-center">
+					<i class="fas fa-thumbs-up pl-3 pr-4"></i>Like
+					this Article</p>
+			</div>
+		</div>
+
+
 	</div>
-
-
-</div>
-<!--	bottom card-->
-<div class="card">
-	<div class="card-header">
-
-	</div>
-	<div class="card-body d-flex flex-column align-items-center">
-		<h1 class="card-title title">People Who Viewed This Story Also Viewed</h1>
-		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="imgs/bee.jpeg" class="d-block w-100" alt="...">
+	<!--	bottom card with carousel-->
+	<div class="card">
+		<div class="card-header">
+		</div>
+		<div class="card-body d-flex flex-column align-items-center">
+			<h1 class="card-title title">People Who
+				Viewed This Story Also Viewed</h1>
+			<div id="carouselExampleControls"
+			     class="carousel slide"
+			     data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="imgs/bee.jpeg"
+						     class="d-block w-100"
+						     alt="...">
+					</div>
+					<div class="carousel-item active">
+						<img src="imgs/phone.jpeg"
+						     class="d-block w-100"
+						     alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="imgs/bees.png"
+						     class="d-block w-100"
+						     alt="...">
+					</div>
 				</div>
-				<div class="carousel-item active">
-					<img src="imgs/phone.jpeg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="imgs/bees.png" class="d-block w-100" alt="...">
+				<a class="carousel-control-prev"
+				   href="#carouselExampleControls"
+				   role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon"
+					      aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next"
+				   href="#carouselExampleControls"
+				   role="button" data-slide="next">
+					<span class="carousel-control-next-icon"
+					      aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+	<!--Mobile Footer Start-->
+	<footer>
+		<div class="text-center p-3 d-block d-lg-none">
+			<a id="show-mobile-footer"><i
+					class="fas fa-chevron-circle-down content"></i></a>
+			<p class="content">More Links</p>
+		</div>
+	</footer>
+
+	<footer id="mobile-footer"
+	        class="d-block d-lg-none">
+		<div class="more-links-container">
+			<div>
+				<div id="expanded-text"
+				     class="d-none">
+					<ul style="list-style-type:none;">
+						<li>
+							<a href="#">Investors</a>
+						</li>
+
+						<li>
+							<a href="#">Media Room</a>
+						</li>
+
+						<li>
+							<a href="#">Suppliers</a>
+						</li>
+
+						<li>
+							<a href="#">Large Business Services</a>
+						</li>
+						<li>
+							<a href="#">Government Solutions</a>
+						</li>
+						<li>
+							<a href="#">Careers</a>
+						</li>
+						<li>
+							<a href="#">Our Company</a>
+						</li>
+						<li>
+							<a href="#">Our Promise</a>
+						</li>
+						<li>
+							<a href="#">Projects &amp;Facilities</a>
+						</li>
+						<li>
+							<a href="#">Lakes &amp;Recreation</a>
+						</li>
+						<li>
+							<a href="#">Rates &amp;Tariffs</a>
+						</li>
+						<li>
+							<a href="#">Safety</a>
+						</li>
+						<li>
+							<a href="#">Contact Us</a>
+						</li>
+						<li>
+							<a href="#">[+] Feedback</a>
+						</li>
+					</ul>
+					<div class="social-icons">
+						<a href="#"><span class='fab fa-facebook-f mr-2'></span></a>
+						<a href="#"><span class='fab fa-instagram mr-2'></span></a>
+						<a href="#"><span class='fab fa-linkedin mr-2'></span></a>
+						<a href="#"><span class='fab fa-twitter mr-2'></span></a>
+						<a href="#"><span class='fab fa-youtube'></span></a>
+					</div>
+					<div class="logo-container">
+						<img src="https://cdn-dominionenergy-prd-001.azureedge.net/-/media/project/dom/identity/dom-white-logo-tagline.svg?rev=29cec8db318440ab91d18ac5fc21c873&amp;hash=CA13A098A6FE3A2DC5B2C79DFC44F735"
+						     class="logo"
+						     alt="Dominion Energy Logo"/>
+					</div>
 				</div>
 			</div>
-			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
+		</div>
+	</footer>
+
+
+	<!--Start Desktop Footer-->
+	<footer id="desktop-footer">
+		<div class="container d-none d-lg-block">
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="https://www.dominionenergy.com/"
+					   class="logo-link">
+						<img src="https://cdn-dominionenergy-prd-001.azureedge.net/-/media/project/dom/identity/dom-white-logo-tagline.svg?rev=29cec8db318440ab91d18ac5fc21c873&amp;hash=CA13A098A6FE3A2DC5B2C79DFC44F735"
+						     class="logo"
+						     alt="Dominion Energy Logo"
+						     DisableWebEdit="False"/>
+					</a>
+					<div class="social-icons">
+						<a href="#"><span class='fab fa-facebook-f mr-2'></span></a>
+						<a href="#"><span class='fab fa-instagram mr-2'></span></a>
+						<a href="#"><span class='fab fa-linkedin mr-2'></span></a>
+						<a href="#"><span class='fab fa-twitter mr-2'></span></a>
+						<a href="#"><span class='fab fa-youtube'></span></a>
+					</div>
+
+
+					<div>
+						<p>
+							<a href="#">Call us
+							24/7</a> to access
+							self-service or report an
+							outage or emergency.
+						</p>
+
+						<p>
+							<a href="#">Report and
+							check your outage
+							online</a></p>
+						<p>
+							For other questions, help
+							is available under <a
+									href="#">Contact
+								Us.</a>
+						</p>
+
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="link-list">
+						<ul style="list-style-type:none;">
+							<li>
+								<a href="#">Sign In/Register</a>
+							</li>
+
+							<li>
+								<a href="#">Billing</a>
+							</li>
+
+							<li><a href="#">Start/Stop Service</a>
+							</li>
+
+							<li><a href="#">Green Energy</a>
+							</li>
+
+							<li><a href="#">Report Incident</a>
+							</li>
+
+							<li><a href="#">Our Stories</a>
+							</li>
+
+							<li><a href="#">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="link-list">
+						<ul style="list-style-type:none;">
+							<li><a href="#">Media Type</a></li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-sm-4">
+					<div class="link-list ">
+						<ul style="list-style-type:none;">
+							<li><a href="#">Our
+								Company</a></li>
+							<li><a href="#">The
+								Dominion Promise</a>
+							</li>
+							<li>
+								<a href="#">Careers</a>
+							</li>
+							<li>
+								<a href="#">Suppliers</a>
+							</li>
+							<li><a href="#">Rates
+								&amp; Tariffs</a></li>
+							<li><a href="#">Regulatory
+								Documents</a></li>
+							<li>
+								<a href="#">Projects</a>
+							</li>
+							<li><a href="#">[+]
+								Feedback</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 
-	</div>
-</div>
-<!--Footer-->
-<footer>
-	<div class="text-center p-3">
-		<i class="fas fa-chevron-circle-down content"></i>
-		<p class="content">More Links</p>
-	</div>
+
+		<div class="container d-none d-lg-block">
+			<div class="row">
+				<div class="col-sm-6 text-center text-md-left">
+					<div class="details">
+
+
+					</div>
+				</div>
+				<div class="col-sm-6 text-md-right text-center">
+					<div class="link-list horizontal-separated">
+						<ul style="list-style-type:none;">
+							<li>
+								<a href="#">Privacy</a>
+							</li>
+
+							<li>
+								<a href="#">Do Not Sell My Info (CA)</a>
+							</li>
+
+							<li>
+								<a href="#">Terms&amp;Conditions</a>
+							</li>
+
+							<li>
+								<a href="#">En Espa&#241;ol</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</footer>
 	<div class="text-center p-3 copyright">
 		Copyright © 2019 Dominion Energy
 	</div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	        crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	        crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	        crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
