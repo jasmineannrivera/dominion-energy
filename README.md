@@ -28,5 +28,9 @@ After examining the design comps I was given, I decided that I would use Bootstr
 
 I also decided to tackle this project with a "Mobile First Approach".  I find that this approach works well because I could start with a design that was responsive on both mobile and tablet views, and work up from there.
 
+This first big challenge I faced was the fact that the desktop navbar was very different from the mobile/tablet version.  I opted to create two different navbars that hide at certain breakpoints and display in others.  This allowed for a seamless transition between the two states.
+
+I also faced the same challenge with the footer.  Here, I was able to implement two versions as well as write some JavaScript to hide links on the mobile version until the user chooses to display them.
+
 
 
