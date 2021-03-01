@@ -1,7 +1,12 @@
 
 
-.navbar {
+.navbar-lg {
 	/*background-color: #0072CE;*/
+	color: white;
+	background: #3a7bd5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #3a7bd5, #18549B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #3a7bd5, #18549B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-bottom: 5px solid #FEDB01;
 }
 
 .navbar-toggler {
@@ -21,7 +26,8 @@
 }
 
 .bottom-link {
-	margin-right: 4rem;
+	margin-right: 2rem;
+	color: white;
 }
 
 .lgnav-icon {
