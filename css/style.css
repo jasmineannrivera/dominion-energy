@@ -15,6 +15,19 @@
 	margin-right: 2rem;
 }
 
+#yellow {
+	background-color: #FEDB01;
+	color: black;
+}
+
+.lgnav-icon {
+	margin-right: 1rem;
+}
+
+.lg-link {
+	margin-left: 1rem;
+}
+
 .navbar-brand {
 
 }
@@ -89,4 +102,8 @@ footer a {
 
 footer {
 	padding-top: 1rem;
+}
+
+select {
+	border: none;
 }
